@@ -1,12 +1,11 @@
-Library Management System
+**Library Management System**
 
-Overview
-
+**Overview**
 The Library Management System is a desktop application built with Python for managing library records efficiently. It provides a user-friendly interface for performing operations such as adding, updating, viewing, and deleting book records.
 
-Features
+**Features**
 
-CRUD Operations:
+**CRUD Operations:**
 
 Add new books (Create).
 
@@ -16,15 +15,15 @@ Edit existing book details (Update).
 
 Remove unwanted records (Delete).
 
-Categorization:
+**Categorization:**
 
 Dropdown menus for selecting book genres and availability status.
 
-Data Display:
+**Data Display:**
 
 Tabular display of book details, including Title, Author, Publisher, Year, Genre, and Availability Status.
 
-Purpose
+**Purpose**
 
 This project was created to:
 
@@ -34,16 +33,16 @@ Provide hands-on experience with GUI application development in Python.
 
 Learn how to integrate Python applications with databases.
 
-Technologies Used
+**Technologies Used**
 
-Programming Language: Python
+**Programming Language:** Python
 
-GUI Framework: Tkinter
+**GUI Framework:** Tkinter
 
 Database:MySQl(heidisql )
 
 
-How to Run
+**How to Run**
 
 1.Clone the repository:
 
