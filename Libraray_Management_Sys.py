@@ -9,8 +9,8 @@ import pymysql
 db_connection = pymysql.connect(
     host="localhost",
     user="root",
-    password="hariraja",
-    database="library_db"
+    password="password",#replace your password 
+    database="library_db"#replace your database name
 )
 my_database = db_connection.cursor()
 
@@ -25,7 +25,7 @@ class PharmacyApp:
         self.create_labels_and_ui()
 
     def set_background(self):
-        image = Image.open(r"D:\Data Science\tkinter\project\libraray sys\libraray.png")
+        image = Image.open(r"D:\Data Science\tkinter\project\libraray sys\libraray.png")#Replace your image path
         image = image.resize((self.root.winfo_width(), self.root.winfo_height()), Image.Resampling.LANCZOS)
         photo = ImageTk.PhotoImage(image)
         self.bg_label = Label(self.root, image=photo)
